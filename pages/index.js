@@ -59,7 +59,7 @@ export default function Home() {
           <div className="text-center p-5">
             <h1></h1>
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl"> <Typewriter
-            words={['Ahmad Lu.']}
+            words={[' Hello & Welcome 😎']}
             loop={1}
             cursor={false}
             cursorStyle='_'
@@ -67,7 +67,7 @@ export default function Home() {
             deleteSpeed={50}
             delaySpeed={5000}
                               /></h2>
-            <h3  className="text-2xl py-2 md:text-3xl dark:text-white">Jr Front-End Develoer and Designer</h3>
+            <h3  className="text-2xl py-2 md:text-3xl dark:text-white"> Let's Start </h3>
             <p className="text-md pt-10  text-red-500 font-bold md:text-xl max-w-lg mx-auto">
           {/* Style will be inherited from the parent element */}
           <Typewriter
