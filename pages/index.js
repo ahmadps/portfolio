@@ -71,12 +71,12 @@ export default function Home() {
             <p className="text-md pt-10  text-red-500 font-bold md:text-xl max-w-lg mx-auto">
           {/* Style will be inherited from the parent element */}
           <Typewriter
-            words={['Design','Code','Launch', 'Repeat!']}
+            words={['Welcome','مرحباً']}
             loop={0}
             cursor={true}
             cursorStyle='_'
             typeSpeed={70}
-            delaySpeed={1000}
+            delaySpeed={1500}
               />
         </p>
             
