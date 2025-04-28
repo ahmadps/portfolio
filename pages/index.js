@@ -96,7 +96,7 @@ export default function Home() {
           <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
           <p className="text-md py-2 leading-8 text-gray-80 dark:text-white">
              <span className="text-teal-500  text-2xl"> <Typewriter
-            words={['UI/UX desgin', 'UI developer']}
+            words={['UI/UX desgin', 'UI development']}
             loop={0}
             cursor={true}
             cursorStyle='_'
