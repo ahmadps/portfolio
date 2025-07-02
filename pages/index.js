@@ -58,16 +58,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-5">
-            <h1></h1>
-            <h3 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl"> <Typewriter
-            words={[' Hello & Welcome ']}
-            loop={1}
-            cursor={false}
-            cursorStyle='_'
-            typeSpeed={100}
-            deleteSpeed={50}
-            delaySpeed={5000}
-                              /></h3>
+           
             <h3  className="text-2xl py-2 md:text-3xl dark:text-white"> Let's Start </h3>
             <p className="text-md pt-10  text-red-500 font-bold md:text-xl max-w-lg mx-auto">
           {/* Style will be inherited from the parent element */}
@@ -144,12 +135,12 @@ export default function Home() {
           <h3 className="text-3xl py-1 dark:text-white text-center">Portfolio</h3>
         </div>
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-          <div className="basis-1/3 flex-1 "><Image src={web1} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
-          <div className="basis-1/3 flex-1 "><Image src={web2} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
-          <div className="basis-1/3 flex-1 "><Image src={web3} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
-          <div className="basis-1/3 flex-1 "><Image src={web4} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
-          <div className="basis-1/3 flex-1 "><Image src={web5} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
-          <div className="basis-1/3 flex-1 "><Image src={web6} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></div>
+          <div className="basis-1/3 flex-1 "><Image src={web1} className="rounded-lg object-fill" width={'100%'} height={'100%'} layout="responsive"/></div>
+          <div className="basis-1/3 flex-1 "><Image src={web2} className="rounded-lg object-fill" width={'100%'} height={'100%'} layout="responsive"/></div>
+          <div className="basis-1/3 flex-1 "><Image src={web3} className="rounded-lg object-fill" width={'100%'} height={'100%'} layout="responsive"/></div>
+          <div className="basis-1/3 flex-1 "><Image src={web4} className="rounded-lg object-fill" width={'100%'} height={'100%'} layout="responsive"/></div>
+          <div className="basis-1/3 flex-1 "><Image src={web5} className="rounded-lg object-fill" width={'100%'} height={'100%'} layout="responsive"/></div>
+          <div className="basis-1/3 flex-1 "><Image src={web6} className="rounded-lg object-fill" width={'100%'} height={'100%'} layout="responsive"/></div>
 
         </div>
        </section>
