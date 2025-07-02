@@ -3,7 +3,8 @@ import{BsFillMoonStarsFill} from 'react-icons/bs';
 import {
   AiFillGithub,
   AiFillLinkedin,
-  AiFillYoutube
+  AiFillYoutube,
+  AiFillDribble
   } from "react-icons/ai";
   import Image from "next/image";
   import deved from '../public/dev-ed-wave.png';
@@ -88,6 +89,9 @@ export default function Home() {
           <div className="text-5xl flex justify-center gap-16 py-5 mt-5  text-gray-600 dark:text-gray-300">
             <a  href="https://www.linkedin.com/in/ahmad-lubbad/" target="_self">
             <AiFillLinkedin  />
+            </a>
+            <a  href="https://dribbble.com/Ahmadkuoo" target="_self">
+            <AiFillDribble  />
             </a>
             </div>
        </section>
